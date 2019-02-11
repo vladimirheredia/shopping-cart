@@ -1,3 +1,13 @@
+# Description
+This project is using React as part of another project i had in class created in PHP. The previous project was done in PHP and MySQL. This time, i started translating the project to use:
+
+* MongoDB connected to mLab
+* Google Cloud Functions to connect to the MongoDB and the CRUD operations
+* React
+* Redux
+* CSS
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
