@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
-import CommonProd from './commonProd';
+import CommonProd from './commonProd'
 
-class CatFood extends Component{
+class Product extends Component{
     constructor(props){
         super(props)
         this.state = {
             list: []
         };
+        
     }
 
     render(){
         return(
-            <CommonProd title="CAT FOODS"/>
+            <CommonProd title="ANIMAL FOODS"/>
         );
     }
 }
 
-export default CatFood;
+export default Product;
