@@ -10,6 +10,7 @@ class DogFood extends Component{
     }
 
     componentDidMount(){
+        //fetch data from serverless google function
         fetch('https://us-east1-portfolio-229320.cloudfunctions.net/petfoodtype?type=Dog')
             .then(response => response.json())
             .then(data => this.setState({ list: data}));
