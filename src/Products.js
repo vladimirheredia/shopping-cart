@@ -24,7 +24,7 @@ class Product extends Component{
                     <form method="POST">
                         <span className="thumbnail">
                             <img style={{width: '150px', height: '150px' }} src={item.image_path} alt="..." />
-                            <h4 name="name" className="text-info"><a href="#">{item.type}</a></h4>
+                            <h4 name="name" className="text-info"><a href="#">{item.type} Food</a></h4>
                             <p>
                                 {item.description}	
                             </p>
