@@ -19,7 +19,7 @@ class Nav extends Component{
                             <li><NavLink to="/dogfood">Dog Food</NavLink></li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#"><span className="glyphicon glyphicon-user"></span> Jose</a></li>
+                            <li><a href="#"><span className="glyphicon glyphicon-user"></span>Jose</a></li>
                             <li>
                                 <a id="login" href="#"><span className="glyphicon glyphicon-log-in"></span></a>
                             </li>
