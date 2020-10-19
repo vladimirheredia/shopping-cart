@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.itemPrice {
+  margin-top: 7px;
+  font-weight: bold;
+  color: grey;
+}
+
+.itemPrice::before{
+  content: '$';
+}
