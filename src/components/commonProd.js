@@ -43,7 +43,7 @@ class CommonProd extends Component{
                                 <hr className="line" />
                                 <div className="row">
                                     <div className="col-md-4 col-sm-4">
-                                        <p style={{marginTop: '7px', fontWeight: 'bold', color: 'grey'}} >${item.price}</p>
+                                        <p className="itemPrice">{item.price}</p>
                                     </div>
                                     <div className="col-md-6 col-sm-6">
                                         <button type="submit" name="add_to_cart" className="btn btn-info right" >
