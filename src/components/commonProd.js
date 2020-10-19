@@ -17,7 +17,7 @@ class CommonProd extends Component{
             .then(response => response.json())
             .then(data => this.setState({ products: data, title: this.props.title}));
         }else{
-            let foodType = this.props.title === 'DOG FOOD' ? 'Dog' : 'Cat';
+            let foodType = this.props.title === 'DOG FOODS' ? 'Dog' : 'Cat';
             let url = 'https://us-east1-portfolio-229320.cloudfunctions.net/petfoodtype?type=' + foodType;
             fetch(url)
             .then(response => response.json())
